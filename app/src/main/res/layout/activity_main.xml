@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -101,17 +102,16 @@
             android:id="@+id/dieRollLabel"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             android:textColor="@android:color/black"
-            android:layout_weight="0.43" />
+            android:layout_weight="0.11"
+            android:textAlignment="textStart"/>
 
-        <TextView
-            android:text="0"
+        <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/dieRoll"
-            android:layout_weight="1"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-            android:textColor="@android:color/holo_blue_light"
-            android:textAlignment="center" />
+            android:layout_height="101dp"
+            app:srcCompat="@drawable/dice1"
+            android:id="@+id/diceView"
+            android:layout_weight="0.03"/>
+
     </LinearLayout>
 
     <TextView
