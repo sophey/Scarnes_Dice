@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Scarnes_Dice</string>
+    <string name="change_players">A 1 was rolled, change player to Player %d</string>
+    <string name="player_scores"></string>
+    <string name="player_turn">Player 1s Turn</string>
+    <string name="dice">Die shows a %d</string>
+    <string name="player1_win">Player 1 wins!</string>
+    <string name="player2_win">Player 2 wins!</string>
+    <string name="keep_player">Still Player %ds turn.</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_lose">LoseActivity</string>
+    <string name="sign_in">Sign In</string>
 </resources>
